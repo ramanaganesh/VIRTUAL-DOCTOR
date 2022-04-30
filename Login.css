@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('blog1-768x432.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+margin:0;
+padding:0;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #531fe3;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+font-family:'Times new roman';
+color: rgb(254, 254, 248);
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.scanner h1{
+    color: #26a33b;
+    font-size: 4rem;
+    position: absolute;
+    left: 0;
+    padding-top: 9px;
+    font-family:'Times New Roman', Times, serif;
+    /* bottom: 0.5px; */
+    /* margin-left: 5px; */
+}
+
+  .scanner h1:before{
+      content: "RAMANA";
+      /* position:relative; */
+      position:absolute;
+      top: 9;
+      left:0;
+      width:0;
+      height:100%;
+      border-right: 4px solid rgb(76, 0, 255);
+      box-shadow:0 0 10px 10px #0d00ff;
+      overflow:hidden;
+      color:rgb(89, 0, 255);
+      animation: scan 2s linear infinite;
+  }
+  @keyframes scan{
+          0%, 10%, 100%{
+              width:0;
+          }
+          60% ,80%{
+              width:100%;
+          }
+  }
+
+  .fa-google-plus-square{
+      color: rgb(198, 24, 24);
+  }
+
+  .fa-google-plus-square:hover{
+      color: rgb(255, 4, 4);
+      
+
+  }
+  .fa-facebook-square{
+      color: #531fe3;
+  }
+  .fa-facebook-square:hover{
+      color: #33148b;
+  }
